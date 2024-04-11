@@ -20,7 +20,7 @@ git clone https://github.com/juanjmorelos/.net_mvc_practice.git
 
 Si cambia el nombre, usuario o contraseña de la base de datos prosiga con el paso 4, de lo contrario continue al paso 5
 
-4. Dirijase al archivo `controller/SQLController.cs` y actualicé los datos segun sea necesario por el nombre que le proporcionó a la base de datos de la siguiente forma:
+4. Dirijase al archivo `controller/SQLController.cs` y actualicé los datos segun sea necesario por los que le proporcionó a su base de datos de la siguiente forma:
 ```c#
 public class SqlController {
     private static string server = "localhost"; //aquí debe poner el dominio del servidor
