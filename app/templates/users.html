@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/users.css">
+    <script type="module" src="/js/users.js"></script>
+    <title>Usuarios</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Tabla de usuarios</h1>
+        <div class="filter">
+            <label for="position">Filtro por posición</label>
+            <select name="position" id="position">
+                <option value="">Ver todos</option>
+            </select>
+        </div>
+        <div class="table-container">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th class="number">Nº</th>
+                        <th>Nombre completo</th>
+                        <th>Cargo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+            <span id="empty">No se encontraron datos</span>
+        </div>
+    </div>
+</body>
+</html>
