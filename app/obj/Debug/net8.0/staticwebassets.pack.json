@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/styles/register.css"
     },
     {
+      "Id": "/Users/juanmorelos/Documents/Proyectos especializacion/Código/net_practice/app/wwwroot/styles/users.css",
+      "PackagePath": "staticwebassets/styles/users.css"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.app.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

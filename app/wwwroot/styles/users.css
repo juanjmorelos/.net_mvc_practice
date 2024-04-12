@@ -30,11 +30,12 @@
 }
 
 .table-container {
-    border: 0.5px solid #000;
+    border: 1px solid #000;
     width: 100%;
     border-radius: 8px;
     display: grid;
     place-items: center;
+    overflow: hidden;
 }
 
 .table-container #empty {
@@ -43,7 +44,6 @@
 }
 
 table {
-    border: 0.5px solid #000;
     border-radius: 8px;
     padding: 10px 15px;
     width: 100%;
